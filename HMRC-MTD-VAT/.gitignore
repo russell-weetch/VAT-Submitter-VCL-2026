@@ -26,20 +26,6 @@
 #*.obj
 #
 
-# Default Delphi compiler directories
-# Content of this directories are generated with each Compile/Construct of a project.
-Win32/
-Win64/
-OSX64/
-OSXARM64/
-Android/
-Android64/
-iOSDevice64/
-Linux64/
-
-# Local browser profile created while signing in to HMRC
-*.exe.WebView2/
-
 # Delphi compiler-generated binaries (safe to delete)
 *.exe
 *.dll
@@ -70,7 +56,6 @@ Linux64/
 *.projdata
 *.tvsconfig
 *.dsk
-*.dsv
 
 # Delphi history and backups
 __history/
@@ -82,3 +67,5 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+Settings.ini
+Data/HmrcDevTest.ini

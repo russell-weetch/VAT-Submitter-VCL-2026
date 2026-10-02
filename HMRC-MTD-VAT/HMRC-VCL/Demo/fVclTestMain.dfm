@@ -1,0 +1,222 @@
+object frmVclTestMain: TfrmVclTestMain
+  Left = 0
+  Top = 0
+  Caption = 'Vcl VAT Test Main Form'
+  ClientHeight = 803
+  ClientWidth = 771
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignSize = (
+    771
+    803)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 40
+    Top = 77
+    Width = 63
+    Height = 13
+    Caption = 'VRN (Target)'
+  end
+  object Label2: TLabel
+    Left = 352
+    Top = 40
+    Width = 50
+    Height = 13
+    Caption = 'Date From'
+  end
+  object Label3: TLabel
+    Left = 352
+    Top = 112
+    Width = 38
+    Height = 13
+    Caption = 'Date To'
+  end
+  object Label4: TLabel
+    Left = 184
+    Top = 77
+    Width = 50
+    Height = 13
+    Caption = 'Caller VRN'
+  end
+  object Label5: TLabel
+    Left = 528
+    Top = 118
+    Width = 55
+    Height = 13
+    Caption = 'VAT Period '
+  end
+  object Label6: TLabel
+    Left = 528
+    Top = 40
+    Width = 31
+    Height = 13
+    Caption = 'Status'
+  end
+  object Image1: TImage
+    Left = 40
+    Top = 14
+    Width = 145
+    Height = 39
+    Picture.Data = {
+      0954506E67496D61676589504E470D0A1A0A0000000D49484452000000850000
+      00220802000000FEA18D3D000000017352474200AECE1CE90000000467414D41
+      0000B18F0BFC6105000000097048597300000EC300000EC301C76FA864000004
+      1B4944415478DAED5A2D73E3301055717E41410F45069D80621F2B730A1A141A
+      E6C076E6A6A8050565252D74586990891356D6E0824C4014763377BF203827D9
+      F9B02DADB4D639897BE745D79EFABCDAB7DAD56AF724FA75466AA98C9CD47C54
+      4A6A3EAA25351FD5929A8F6A49CD47B5A41C3E9CE53B618C11BABAB8CCFD57FB
+      34E89FB407AEEB8A9F5AAD16393FEF380EA55E73FEFB9B0CD53E7D5F2C8840A3
+      DEAAB15BE00CBDDEED6042480A2981229452D2CCA0252042A37918CEC8743A25
+      643299ECBE12837088F34EE70AD224AFD8F27D1C45E16C2881AD551270DAADED
+      8B0FBEDBD7FEB34AAF17F6719353452CFE4E6F2712CA66718CD61BAAC0EEBB97
+      1B32CE54102983F80F6F81D72463C1BD85195CFFE5E18E4ACE14D310BC3E3FC5
+      9E501CF1C62B4A8C2D1F4A13137FB40A56167CA8166CF9687F7A3A23BB2FA3B7
+      9BE424C18A214D38BA7FECA77F63F2031360CAA590B2773EC4371E7F2AEC993A
+      4CEA05FE287AECB7973F34169637AC86B2B2A0C10F50601FB4B1FFF3016FBB64
+      3E5601D1C41F7FC4AEA5080378345F7B47937FB2A8D7867DDE746AD32BB7E7D2
+      59062C0AF3412DF6A7C2862D950FB54718F9501BD1F57D3280E2B6920C102AAB
+      D8FA8A0101C72EA55DA3CE94244E36FDDED340E4419BC341ACF9C06C7BF70D13
+      1F452383262E035079C5E0C4B05EA9E5C3606B71056054793B308A251F9005B9
+      775D5FEC970F7D9284F24D4E31D8DC083E80C3518A1C820F201CA5F8D026EDDC
+      07F44119824267FE2D1F70FEB04A0C48B1E503BD6D82E1431FAC557F022A0640
+      C98AE943AE860F8B5B2C5E6CF9406F9B94C6072A43825092531B532074751619
+      DF43149EBC6A6F75DF826291EDEBF0818B12783E8C991FCAF9583E884DA6A908
+      1FA8BA1A132840A89A8FAD94963FE0B2C3A8D87FCA87E5FD0ACD07315172A8FC
+      B1588C79491ECEA6535EFDB9AEDFED92A1FCE878383E70D77CDDCE6DF9205A4A
+      F007D7F8C4A0E143DEA3DA205F950F7CFD01DB57AF586E3D9CB12CEFBBC7E6A3
+      DCFA5C6D447E61CCB644ACED22D7E7A00720EA41659BE79FE2438DC6C13AA136
+      8EC9942015839FE5117CA82AA123F301DD3D1406827283F17D779D388DCFDE99
+      2F621E3A755D26E47BBB7C5BAB261FF12B7937E92253C6A279381C0E26A653AF
+      3F40C6D7C6745F0F727CAE9668963BF3F0095268FDCD2DBBFAD656DCFEF012E6
+      160B16297BBA478F570564E362C686AED134091A13FD73D369D24BD67C25ECF1
+      E8F72BBC6C033AA6A24615F08212F26C39CF200622727768FED1719FFE75C7F6
+      207C904C2FACA896F9610ED1EF64BBC99CF5A0493646276328BB899F64DE8747
+      A078DC273DEFB3193E4A667D329029FBC7103CB25E5DAD1ABA82DFF9F4AC7619
+      BF2602332B7BE123634D9E286633D5CEC5C6E3A12B6E396EB8E6BC780BB30A22
+      92C4A620578F5FA536396FD8BFC6D7F389D5929A8F6A49CD47B5E40FDC7E69CF
+      A75E5DC70000000049454E44AE426082}
+    Stretch = True
+  end
+  object mmoResponse: TMemo
+    Left = 16
+    Top = 184
+    Width = 737
+    Height = 601
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object edtUID: TEdit
+    Left = 40
+    Top = 96
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    OnExit = edtUIDExit
+  end
+  object dtpStart: TDatePicker
+    Left = 352
+    Top = 59
+    Date = 43101.000000000000000000
+    DateFormat = 'dd/MM/yyyy'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    TabOrder = 2
+  end
+  object dtpEnd: TDatePicker
+    Left = 352
+    Top = 131
+    Date = 43451.000000000000000000
+    DateFormat = 'dd/MM/yyyy'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    TabOrder = 3
+  end
+  object edtCaller: TEdit
+    Left = 184
+    Top = 96
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 40
+    Top = 131
+    Width = 121
+    Height = 33
+    Caption = 'Check VRN'
+    TabOrder = 5
+    OnClick = BitBtn1Click
+  end
+  object BitBtn2: TBitBtn
+    Left = 184
+    Top = 131
+    Width = 121
+    Height = 33
+    Caption = 'VRN With Caller'
+    TabOrder = 6
+    OnClick = BitBtn2Click
+  end
+  object BitBtn3: TBitBtn
+    Left = 600
+    Top = 40
+    Width = 121
+    Height = 33
+    Caption = 'Obligations'
+    TabOrder = 7
+    OnClick = BitBtn3Click
+  end
+  object BitBtn4: TBitBtn
+    Left = 600
+    Top = 86
+    Width = 121
+    Height = 33
+    Caption = 'Liabilities'
+    TabOrder = 8
+    OnClick = BitBtn4Click
+  end
+  object BitBtn5: TBitBtn
+    Left = 600
+    Top = 131
+    Width = 121
+    Height = 33
+    Caption = 'Check Returns'
+    TabOrder = 9
+    OnClick = BitBtn5Click
+  end
+  object edtStatus: TEdit
+    Left = 528
+    Top = 59
+    Width = 41
+    Height = 21
+    TabOrder = 10
+    Text = 'O'
+  end
+  object edtPeriod: TEdit
+    Left = 528
+    Top = 137
+    Width = 57
+    Height = 21
+    TabOrder = 11
+    TextHint = '18A1'
+  end
+  object odlg: TOpenDialog
+    Filter = 'Ini Files|*.ini|Text Files|*.txt|All Files|*.*'
+    Left = 288
+    Top = 32
+  end
+end
